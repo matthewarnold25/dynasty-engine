@@ -1,3 +1,4 @@
+import players from "../data/players.json";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex items-center justify-center">
@@ -5,17 +6,15 @@ export default function Home() {
         <h1 className="text-4xl font-bold">Dynasty Engine</h1>
         <p className="mt-4 text-gray-400">
           Superflex Trade & Contender Intelligence
-        </p>   
-      </div>
-      import players from "../data/players.json";
-      <ul>
+        </p>  
+               <ul>
   {players.map((player) => (
     <li key={player.name}>
       {player.name} - {player.position} - {player.value}
     </li>
   ))}
-</ul>
-
+              </ul>
+      </div>
     </main>
   );
 }
