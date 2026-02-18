@@ -1,0 +1,8 @@
+[
+  { "name": "Josh Allen", "position": "QB", "team": "BUF", "value": 9500 },
+  { "name": "Jalen Hurts", "position": "QB", "team": "PHI", "value": 9200 },
+  { "name": "Ja'Marr Chase", "position": "WR", "team": "CIN", "value": 9300 },
+  { "name": "Justin Jefferson", "position": "WR", "team": "MIN", "value": 9400 },
+  { "name": "Bijan Robinson", "position": "RB", "team": "ATL", "value": 9100 },
+  { "name": "Sam LaPorta", "position": "TE", "team": "DET", "value": 8800 }
+]
